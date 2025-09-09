@@ -13,7 +13,7 @@ for r in range(N):
             if 0<=nr<N and 0<=nc<N:
                 if arr[nr][nc] == 1:
                     cnt+=1
-                    print(cnt)
-        if cnt == 3:
+                    # print(cnt)
+        if cnt >= 3:
             cnt2 +=1
-# print(cnt2)
+print(cnt2)
