@@ -43,3 +43,9 @@ arr.sort() # 2 4 7 9 11 19 23
 
 # binary_search_while(0, len(arr) -1) # 처음과 끝을 전달
 print(f'9 = {binary_search_while(9)}번째에 위치')
+
+
+
+
+
+
