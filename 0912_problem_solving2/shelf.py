@@ -14,9 +14,10 @@ for tc in range(1, 1 + T):
     min_val = float('inf')
     for i in range(1, N + 1): # 범위는 1부터 N까지
         for k in combinations(arr, i): # 조합을 받아온 키 정보를 토대로 구함
+            print(k)
             current = sum(k) # 각 조합의 합을 current에 저장
 
             if current >= B: # B보다 크 거나 같은 경우에만
                 min_val = min(min_val, current - B) # current - B와 최소를 비교해 최소를 구함
-    print(f'#{tc}', min_val)
+    # print(f'#{tc}', min_val)
 
