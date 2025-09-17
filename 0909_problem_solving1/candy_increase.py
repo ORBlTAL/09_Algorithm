@@ -37,7 +37,7 @@ for tc in range(1, 1 + T):
 
 
 # import sys
-# sys.stdin = open('input.txt')
+# sys.stdin = open('rmv.txt')
 # T = int(input())
 # for tc in range(1, 1 + T):
 #     a, b, c = map(int, input().split())

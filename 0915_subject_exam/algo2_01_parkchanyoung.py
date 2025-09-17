@@ -35,7 +35,7 @@ for tc in range(1, 1 + T):
 
 # # itertools 없이 재귀로 푼 경우
 # import sys
-# sys.stdin = open('input.txt')
+# sys.stdin = open('rmv.txt')
 # T = int(input())
 #
 # def dis(permu):
